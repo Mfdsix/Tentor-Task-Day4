@@ -1,0 +1,102 @@
+body{
+	margin: 0;
+	background: #eee;
+}
+header {
+	padding: 20px 30px;
+	background: #45046a;
+	color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Noto Serif', serif;
+}
+p, label, input, a, table{
+	font-family: 'Baloo 2', cursive;
+}
+
+header h1{
+	margin: 0;
+}
+
+header p{
+	color: #f1ebbb;
+}
+
+h3{
+	color: #d9455f;
+}
+
+nav{
+	background: #f1ebbb;
+	padding: 0px 30px;
+}
+
+hr{
+	margin: 0;
+	border: none;
+	height: 3px;
+	background: #333;
+}
+
+nav a{
+	background: #b5076b;
+	padding: 10px;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav a:hover, nav a.active{
+	background: #5c2a9d;
+}
+
+section{
+	padding: 50px 30px;
+}
+
+table{
+	width: 50%;
+	border-collapse: collapse;
+}
+table td, table th{
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+
+table th{
+	background: #333;
+	color: #fff;
+}
+table td{
+	background: #f1ebbb;
+	color: #333;
+}
+table tr:hover td{
+	cursor: pointer;
+	background: #5c2a9d;
+	color: #f1ebbb;
+}
+
+form label{
+	color: #333;
+}
+form input, form textarea{
+	padding: 10px;
+	margin-top: 5px;
+	border-radius: 3px;
+	border: none;
+}
+
+ol{
+	padding-left: 18px;
+}
+li{
+	padding: 5px;
+	background: #f1ebbb;
+	color: #333;
+}
+li:hover{
+	background: #333;
+	color: #b5076b;
+}
